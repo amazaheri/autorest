@@ -20,8 +20,9 @@
 *.htm text
 *.html text
 
-*.js text
-*.json text
+*.json text eol=lf
+*.ts text eol=lf
+*.txt text eol=lf
 
 *.msbuild text
 *.nuspec text
@@ -34,3 +35,7 @@
 *.xml text
 
 *.sln text eol=crlf merge=union
+
+shrinkwrap.yaml              merge=binary
+npm-shrinkwrap.json          merge=binary
+yarn.lock                    merge=binary

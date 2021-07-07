@@ -1,0 +1,42 @@
+{
+  "typescript.tsdk": "./common/temp/node_modules/typescript/lib",
+  "search.exclude": {
+    "**/dist/**": true,
+    "Samples/**": true,
+  },
+  "files.exclude": {
+    "**/node_modules/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/*.log": true,
+    "**/package-deps.json": true,
+    "**/.DS_Store": true,
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "rush.json": "jsonc",
+    "command-line.json": "jsonc",
+    "common-versions.json": "jsonc"
+  },
+  "git.ignoreLimitWarning": true,
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
